@@ -936,8 +936,3 @@ end
 Players.PlayerAdded:Connect(updateExploitCount);
 Players.PlayerRemoving:Connect(updateExploitCount);
 updateExploitCount();
-
-});
-local Section = utilitiesTab:AddSection({Name = "Settings"});
-utilitiesTab:AddButton({
-    Name = "fly",
